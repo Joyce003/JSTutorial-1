@@ -15,11 +15,29 @@ if (year % 4 === 0) {
   console.log("Not a leap year");
 }
 
-const button = document.getElementById("bg-button");
-button.addEventListener("click", function() {
-    const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.body.style.backgroundColor = "#" + randomColor;
+// const button = document.getElementById("bg-button");
+// button.addEventListener("click", function() {
+//     const randomColor = Math.floor(Math.random()*16777215).toString(16);
+//     document.body.style.backgroundColor = "#" + randomColor;
 
-});
+// });
 
-document.getElementById("demo").innerHTML = 5 + 6;
+// document.getElementById("demo").innerHTML = 5 + 6;
+
+// const rows = 5;
+
+// for (let i = 1; i <= rows; i++) {
+//   let line = "";
+
+//   // Space loop: adding leading spaces before the stars
+//   for (let spaces = 1; spaces <= rows - i; spaces++) {
+//       line += " ";
+//   }
+
+//   // Star loop: adding the asterisks 
+//   for (let stars = 1; stars <= 2 * i - 1; stars++) { 
+//       line += "*";
+//   }
+
+//   console.log(line); 
+// }

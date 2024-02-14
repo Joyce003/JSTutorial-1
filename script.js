@@ -1,13 +1,39 @@
 // First Program
 //console.log('Welcome To JS Tutorial By Logan!');
 
-const name = "The big lazy fox";
-const name2= "bit the big brown dog";
-const name3= "for stepping on him.";
+// const name = "The big lazy fox ";
+// const name2= "bit the big brown dog ";
 
-console.log(name + name2 + name3); //Did I do this right?
+// const name3= "for stepping on him.";
+
+// console.log(name + name2 + name3); //Did I do this right?
+
+//copy and paste code
+
+// let sum = 5 + 10;       // sum will be 15
+// console.log(sum);
+// let fullName = "John" + " Doe"; // fullName will be "John Doe"
+// console.log(fullName);
+// let difference = 20 - 8; // difference will be 12
+// console.log(difference);
+// let product = 6 * 7;     // product will be 42
+// console.log(product);
+// let quotient = 30 / 3;   // quotient will be 10
+// console.log(quotient);
+// let remainder = 17 % 5;  // remainder will be 2    
+// console.log(remainder);
 
 // Conditional Statement
+
+let cheatSheet = 5;
+If (CheatSheet = >= 5) {
+    console.log("You have the cheet sheets!");
+} else {
+    console.log("Good luck on your won!");
+}
+    // console.log(here's your cheat sheet)
+    // } else if (good luck on your own!)
+    // console.log(good luck);
 
 // let year = 2024;
 
@@ -26,12 +52,12 @@ console.log(name + name2 + name3); //Did I do this right?
 
 // Random Color Change Function
 
-const button = document.getElementById("bg-button");
-button.addEventListener("click", function() {
-    const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.body.style.backgroundColor = "#" + randomColor;
+// const button = document.getElementById("bg-button");
+// button.addEventListener("click", function() {
+//     const randomColor = Math.floor(Math.random()*16777215).toString(16);
+//     document.body.style.backgroundColor = "#" + randomColor;
 
-});
+// });
 
 
 // Inner HTML number Changer

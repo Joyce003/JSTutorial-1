@@ -1,29 +1,38 @@
 // First Program
 console.log('Welcome To JS Tutorial By Logan!');
 
-let year = 2024;
+// Conditional Statement
 
-if (year % 4 === 0) {
-  if (year % 100 !== 0) {
-    console.log("Leap year");
-  } else if (year % 400 === 0) {
-    console.log("Leap year");
-  } else {
-    console.log("Not a leap year");
-  }
-} else {
-  console.log("Not a leap year");
-}
+// let year = 2024;
 
-// const button = document.getElementById("bg-button");
-// button.addEventListener("click", function() {
-//     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-//     document.body.style.backgroundColor = "#" + randomColor;
+// if (year % 4 === 0) {
+//   if (year % 100 !== 0) {
+//     console.log("Leap year");
+//   } else if (year % 400 === 0) {
+//     console.log("Leap year");
+//   } else {
+//     console.log("Not a leap year");
+//   }
+// } else {
+//   console.log("Not a leap year");
+// }
 
-// });
 
+// Random Color Change Function
+
+const button = document.getElementById("bg-button");
+button.addEventListener("click", function() {
+    const randomColor = Math.floor(Math.random()*16777215).toString(16);
+    document.body.style.backgroundColor = "#" + randomColor;
+
+});
+
+
+// Inner HTML number Changer
 // document.getElementById("demo").innerHTML = 5 + 6;
 
+
+// Pyramid Function
 // const rows = 5;
 
 // for (let i = 1; i <= rows; i++) {

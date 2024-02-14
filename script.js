@@ -1,5 +1,11 @@
 // First Program
-console.log('Welcome To JS Tutorial By Logan!');
+//console.log('Welcome To JS Tutorial By Logan!');
+
+const name = "The big lazy fox";
+const name2= "bit the big brown dog";
+const name3= "for stepping on him.";
+
+console.log(name + name2 + name3); //Did I do this right?
 
 // Conditional Statement
 

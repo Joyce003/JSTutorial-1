@@ -10,14 +10,14 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-
+        <div id="content">
        <h2>What Can JavaScript Do?</h2>
 
         <!-- Example 1 -->
 
         <p id="demo">JavaScript can change HTML content.</p>
 
-        <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+        <button type="button" onclick='document.getElementById("demo").innerHTML = "You Clicked the First Button"'>Click Me!</button>
 
         <!-- Example 2 -->
 
@@ -25,12 +25,22 @@
 
         <button type="button" onclick="document.getElementById('demo').style.display='none'">Hide Content</button>
 
+        <!-- Example 3 -->
+
         <p>JavaScript can show hidden HTML elements.</p>
 
-        <p id="demo" style="display:none">Hello JavaScript!</p>
+        <p id="demo" style="display:none">Wub A Luba Dub Dub!</p>
 
         <button type="button" onclick="document.getElementById('demo').style.display='block'">Show Content</button>
 
+        <br/> 
+        <br/>
+        
+
+        <button id="bg-button">BG Color</button>
+
+
+        </div>
         <script src="script.js" async defer></script>
     </body>
 </html>

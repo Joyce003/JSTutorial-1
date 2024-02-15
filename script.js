@@ -82,3 +82,8 @@ If (CheatSheet = >= 5) {
 
 //   console.log(line); 
 // }
+
+//JavaScript Arrays
+let selectedColors 
+
+//We can initialize this. These square brackets are what we call Array literal and indicate an empty array.

@@ -85,8 +85,17 @@ If (CheatSheet = >= 5) {
 
 //JavaScript Arrays
 let selectedColors = ['red', 'blue'];
-console.log(slectedColors);
+selectedColors[2] = 'green';
+console.log(selectedColors[0]);
 
 //We can initialize this. These square brackets are what we call Array literal and indicate an empty array.
 //Now we can initialize this array and add a couple of items.
 //Here's our array with 2 elements. Each element has an index. Index of 1st element is 0.
+//If you want to access the index in an array, use this index.
+//We can add another element to this array
+
+//typeof array is an object
+
+let selectedColors = ['red', 'blue'];
+selectedColors[2] = 1;
+console.log(selectedColors.length);

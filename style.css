@@ -1,3 +1,17 @@
+//Image gallery for cute puppies
+.image-gallery {
+    dispay: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; //give me some nice rounded corners.
+}
+
 body {
     background-color: black;
     margin: 0;

@@ -9,15 +9,15 @@ document.querySelectorAll('.image-gallery img').forEach(image => {
 
 <script>
 function showPaymentOptions() {
-    var paymentMethod = prompt("Enter 'PayPal' or 'Credit Card' to select your payment method.");
+    let paymentMethod = prompt("Enter 'PayPal' or 'Credit Card' to select your payment method.");
     if (paymentMethod.toLowerCase() === "paypal") {
-        // Logic for PayPal payment
+        // PayPal payment feature in button
        alert("You selected PayPal.");
     } else if (paymentMethod.toLowerCase() === "credit card") {
-        // Logic for Credit Card payment
+        // Credit Card payment feature in button
         alert("You selected Credit Card.");
     } else {
-        alert("Invalid selection. Please enter 'PayPal' or 'Credit Card'.");
+        alert("Invalid selection. Please enter 'PayPal' or 'Credit Card', or no puppy for you.");
     }
 }
 

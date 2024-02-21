@@ -1,3 +1,9 @@
+
+document.querySelectorAll('image-gallery img').forEach(image => {
+    image.addEventListener('click', function() {
+    alert('You clicked on a cute puppy! Now go type in your paypal/credit card information and receive this adorable creature for the low price of $5,000.');
+    });
+});
 // First Program
 //console.log('Welcome To JS Tutorial By Logan!');
 
@@ -25,12 +31,12 @@
 
 // Conditional Statement
 
-let cheatSheet = 5;
-If (CheatSheet = >= 5) {
-    console.log("You have the cheet sheets!");
-} else {
-    console.log("Good luck on your won!");
-}
+//let cheatSheet = 5;
+//If (CheatSheet = >= 5) {
+    //console.log("You have the cheet sheets!");
+//} else {
+  //  console.log("Good luck on your won!");
+//}
     // console.log(here's your cheat sheet)
     // } else if (good luck on your own!)
     // console.log(good luck);
@@ -84,9 +90,9 @@ If (CheatSheet = >= 5) {
 // }
 
 //JavaScript Arrays
-let selectedColors = ['red', 'blue'];
-selectedColors[2] = 'green';
-console.log(selectedColors[0]);
+// let selectedColors = ['red', 'blue'];
+// selectedColors[2] = 'green';
+// console.log(selectedColors[0]);
 
 //We can initialize this. These square brackets are what we call Array literal and indicate an empty array.
 //Now we can initialize this array and add a couple of items.
@@ -96,6 +102,6 @@ console.log(selectedColors[0]);
 
 //typeof array is an object
 
-let selectedColors = ['red', 'blue'];
-selectedColors[2] = 1;
-console.log(selectedColors.length);
+// let selectedColors = ['red', 'blue'];
+// selectedColors[2] = 1;
+// console.log(selectedColors.length);
